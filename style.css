@@ -1,0 +1,138 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-right: 150px;
+    margin-top: 100px;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(500px, 600px));
+    grid-column-gap: 200px;
+    grid-row-gap: 90px;
+    }
+
+
+.grid{
+    height: 720px;
+    width: 760px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 10px 1px 20px 10px gray;
+  
+}
+    .A{
+        background-color: lightgray;
+
+    }
+    .B{
+        background-color: lightgray;
+    }
+    .C{
+        background-color: lightgray;
+    }
+    .D{
+        background-color: lightgray;
+    }
+    .flexcontainer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+        align-content: stretch;
+    }
+    .flex-blok{
+        background-color: lightgray;
+        height: 720px;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    .flex-B1{
+        height: 300px;
+        padding: 29px;
+        max-width: 320px;
+        min-width: 320px;
+    }
+    .flex-D1{
+        height: 300px;
+        padding: 29px;
+        max-width: 320px;
+        min-width: 320px;
+    }
+    .flex-E1{
+        height: 300px;
+        padding: 29px;
+        max-width: 320px;
+        min-width: 320px;
+    }
+    .grid.A.flexcontainer{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .label{
+        display: block;
+        font-size: 2;
+    }
+    .left.top{
+        display: inline;
+    }
+    .userdetails{
+        display: inline;
+        padding: 0;
+    }
+    @media (max-width: 500px){
+        .container{
+            grid-template-columns: auto;
+            justify-content: center;
+            justify-items: center;
+            gap: 60px 0px;
+        }
+        body {
+            height: 100vh;
+            margin: 0px;
+            margin-top: 50px;
+            margin-left: 10px;
+            display: flex;
+            justify-content: center;
+        
+        }
+        .grid{
+            height: 700px;
+            width: 370px;
+        }
+        .flexcontainer{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: stretch;
+            align-content: stretch;
+        }
+        
+    .flex-B1{
+        height: 300px;
+        padding-left: 20px;
+        min-width: 1px;
+        max-width: 320px;
+        
+    }
+    .flex-D1{
+        height: 300px;
+        padding: 29px;
+       width: auto;
+    }
+    .flex-E1{
+        height: 300px;
+        padding: 29px;
+        max-width: 320px;
+        min-width: 320px;
+    }
+    .userdetails{
+        display: inline-block;
+        width: max-content;
+    }
+    }
+
