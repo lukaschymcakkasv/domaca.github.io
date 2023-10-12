@@ -196,7 +196,7 @@ background-color: #213555;
     #nezamestnany{
      display: inline-block;
      margin-top: 30px;
-     float: right; 
+      
      width: 20px;
      background-color: transparent;
      box-shadow: 0px 0px 0px 0px ;
@@ -352,11 +352,11 @@ background-color: #213555;
             grid-template-columns: auto;
             justify-content: center;
             justify-items: center;
-            gap: 150px 0px;
+            gap: 80px 0px;
         }
         body {
             height: 100vh;
-            margin: 0px;
+            margin: 20px;
             display: flex;
             justify-content: center;
         
@@ -377,7 +377,57 @@ background-color: #213555;
             min-height: 200px;
         }
         #info{
-            width: 40px;
+            width: auto;
+            margin-left: -19px;
 
         }
+        input{
+            text-align: center;
+            display: inline;
+            margin-left: -5px;
+        }
+        #narodnost{
+            margin-left: 55px;
+        }
+    .grid.A.flexcontainer{
+        height: 600px;
+
+    }
+    .mainscreen{
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+    .img2{
+      width: 250px; 
+      margin-top: 200px;   
+    }
+    #kasv{
+        font-size: 6rem;
+        display: inline-block;
+        margin-top: 100px;
+    }
+    .grid.D.flexcontainer{
+        height: 700px;
+        margin-top: -50px;
+    }
+    #suhlas{
+        display: inline;
+        margin: 0;
+    }
+    .img1{
+        width: 200px;
+        margin-top: 2px;
+        margin-right: -20px;
+        display: inline-block;
+    }
+    #mojemeno{
+        font-size: 1.3rem;
+        margin-top: -300px;
+        display: inline-block;
+    }
+    .button{
+        display: inline-block;
+        margin-top: -100px;
+    }
+
     }
