@@ -10,39 +10,134 @@
 <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=Libre+Baskerville&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
+    <form action="">
+        <div class="container">
         <div class="grid A flexcontainer">
-                <div class="flex-blok flex-C1"></div>
-                <div class="flex-blok flex-C1"></div>
+        <div class="flex-blok flex-C1">
+            <span class="mainscreen">Prihlaska na studium na <br> <span id="kasv">KASV</span></span>
+            <img src="logo-2.png" alt="logo" class="img2">
         </div>
+        </div> 
         <div class="grid B flexcontainer">
             <div class="flex-blok flex-B1">
                 <div class="userdetails">
-                    <div class="left top">
-                        <span class="label">Meno :</span>
-                        <input type="text" name="meno" id="meno">
-                        <span class="label">Priezvisko</span>
-                        <input type="text" name="Priezviskoň" id="Priezvisko">
-                    </div>
+                  <div class="left top">
+                    <span class="label L" id="titl">Titul :</span>
+                    <input type="text" name="titul" id="titul" placeholder="Mgr.">
+                    <span class="label L">Meno:</span>
+                    <input type="text" name="meno" id="meno" placeholder="Jozko">
+                    <span class="label L">Priezvisko:</span>
+                    <input type="text" name="priezvisko" id="priezvisko" placeholder="Fazula">
+                  </div>
                 </div>
             </div>
-             <div class="flex-blok flex-B1"> </div>
-            <div class="flex-blok flex-B1"></div>
-            <div class="flex-blok flex-B1"></div>
+            <div class="flex-blok flex-B1 B" id="leftbot">
+                <div class="userdetails">
+                    <div class="left top L">
+                      <span class="label L W" id="nar"> Datum Narodenia:</span>
+                      <input type="date" name="birth" id="birth" placeholder="">
+                      <span class="label L W">Adresa:</span>
+                      <input type="text" name="adresa" id="adresa" placeholder="Humenska 1 , 04011 , Kosice">
+                      <span class="label L W">Narodnost:</span>
+                      <select id="narodnost" name="narodnost">
+                        <option value="SK">Slovenská</option>
+                        <option value="Česká">Česká</option>
+                        <option value="Iná">Iná</option>
+                    </select>
+                    </div>
+                  </div>
+            </div>
+            <div class="flex-blok flex-B1">
+                <div class="userdetails">
+                    <div class="left top">
+                      <span class="label L R" id="em">Email:</span>
+                      <input type="text" name="email" id="email" placeholder="Email55@gmail.com">
+                      <span class="label L R"> Telefónne Číslo</span>
+                      <input type="tel" id="cislo" name="cislo" pattern="[0-9]9" placeholder="09XX XXX XXX"   >
+                      <span class="label L R">Pohlavie:</span>
+                      <select id="pohlavie" name="pohlavie">
+                        <option value="muz">Muž</option>
+                        <option value="zena">Žena</option>
+                        <option value="neuvadzam">Neuvádzam</option>
+                    </select>
+                    </div>
+                  </div>
+            </div>
+            <div class="flex-blok flex-B1 B">
+                <span class="label R W " id="bot">PRIDAJ FOTKU:</span>
+                <input type="file" id="photo" name="photo" > 
+            </div>
         </div>
         <div class="grid C flexcontainer">
-                <div class="flex-blok flex-D1"></div>
-                <div class="flex-blok flex-D1"></div>
-                <div class="flex-blok flex-D1"></div>
-                <div class="flex-blok flex-D1"></div>
+                <div class="flex-blok flex-D1">
+                  <span class="label L top">Navštevovaná Škola:</span>
+                  <input type="text" id="skola" name="skola" placeholder="UPJS">
+                  <span class="label L S"> OD:</span>
+                  <input type="date" id="od" name="od" min="1990-01-01" 
+                  max="2023-10-15" class="inputsmall">
+                  <span class="label L S"> DO:</span>
+                  <input type="date" id="do" name="do" min="1990-01-01" 
+                  max="2023-10-15" class="inputsmall">
+                  <textarea name="oskole" rows="8" cols="36" placeholder="Cieľ štúdia , získane vedomosti"></textarea>
+                </div>
+                <div class="flex-blok flex-D1 B">
+                    <span class="label L W" id="sk">Navštevovaná Škola:</span>
+                    <input type="text" id="skola" name="skola" placeholder="TUKE">
+                    <span class="label L S W"> OD:</span>
+                    <input type="date" id="od" name="od" min="1990-01-01" 
+                    max="2023-10-15" class="inputsmall">
+                    <span class="label L S W"> DO:</span>
+                    <input type="date" id="do" name="do" min="1990-01-01" 
+                    max="2023-10-15" class="inputsmall">
+                    <textarea name="oskole" rows="8" cols="36" placeholder="Cieľ štúdia , získane vedomosti"></textarea>
+                </div>
+                <div class="flex-blok flex-D1 ">
+                    <span class="label L top"> Skills/Skúsenosti</span>
+                    <input type="text" id="skill1" name="skillrange" placeholder="WORD">
+                    <select id="skillrange" name="skillrange">
+                        <option value="zaciatocnik">Začiatočník</option>
+                        <option value="pokrocili">Pokročilí</option>
+                        <option value="majster">Majster</option>
+                    </select>
+                     <input type="text" id="skill1" name="skillrange" placeholder="JAVA">
+                    <select id="skillrange" name="skillrange">
+                        <option value="zaciatocnik">Začiatočník</option>
+                        <option value="pokrocili">Pokročilí</option>
+                        <option value="majster">Majster</option>
+                    </select>
+                    
+                </div>
+                <div class="flex-blok flex-D1 B">
+                    <input type="text" id="skillrange3" name="skillrange" placeholder="HTML">
+                    <select id="skillrange" name="skillrange">
+                        <option value="zaciatocnik">Začiatočník</option>
+                        <option value="pokrocili">Pokročilí</option>
+                        <option value="majster">Majster</option>
+                    </select>
+                    <span class="label L Z"> Zamenstnaný ? </span>
+                    <span id="ano">ANO</span>
+                    <input type="radio" name="zamestnanie" id="zamestnany">
+                    <span id="nie">NIE</span>
+                    <input type="radio" name="zamestnanie" id="nezamestnany">
+                </div>
         </div>
         <div class="grid D flexcontainer">
-                <div class="flex-blok flex-E1"></div>
-                <div class="flex-blok flex-E1"></div>
-                <div class="flex-blok flex-E1"></div>
-                <div class="flex-blok flex-E1"></div>
+                <div class="flex-blok flex-E1">
+                    <span class="label L top"> Na záver niečo o tebe : </span>
+                    <textarea name="osebe" id="info" cols="30" rows="10" class="text"></textarea>
+                </div>
+                <div class="flex-blok flex-E1 D">
+                <span class="footer"></span>
+                <input type="checkbox" id="suhlas" name="suhlas" value="suhlas">
+                 <label for="suhlas" id="suhlaslabel" aria-required=""> Súhlasim že si mi dlžný 50 evra</label> 
+                  <img src="./logo-2.png" alt="logo" class="img1">
+                  <input type="button" onclick="" value="Odoslať" class="button">
+                  <span id="mojemeno">Lukas <br>Chymcak</span>
+                </div>
+               
         </div>
     </div>
+    </form>
     
 </body>
 </html>
