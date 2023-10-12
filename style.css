@@ -398,7 +398,7 @@ background-color: #213555;
         margin-top: 10px;
     }
     .img2{
-      width: 250px; 
+      width: 330px; 
       margin-top: 200px;   
     }
     #kasv{
@@ -415,19 +415,21 @@ background-color: #213555;
         margin: 0;
     }
     .img1{
-        width: 200px;
-        margin-top: 2px;
-        margin-right: -20px;
-        display: inline-block;
+        width: 0;
+        height: 0;
     }
     #mojemeno{
         font-size: 1.3rem;
-        margin-top: -300px;
+        margin-top: 80px;
         display: inline-block;
     }
     .button{
         display: inline-block;
-        margin-top: -100px;
+        margin-top: 90px;
+        margin-left: 80px;
     }
 
     }
+   textarea{
+    margin-left: -5px;
+   }
