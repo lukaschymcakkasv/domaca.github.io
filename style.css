@@ -160,9 +160,6 @@ background-color: #213555;
         text-align: left;
         margin-top: px
     }
-    .label.L.R{
-        margin-left: -25px;
-    }
     #email{
       margin-top: 9spx;
       margin-left: -10px;
@@ -339,6 +336,9 @@ background-color: #213555;
         font-size: 6rem;
         text-decoration: underline;
     }
+    .label.L.R{
+        margin-left: -25px;
+    }
     @media (min-width:500px) and (max-width: 950px){
         .container{
             grid-template-columns: auto;
@@ -362,24 +362,32 @@ background-color: #213555;
         
         }
         .grid{
-            height: 1600px;
-            width: 370px;
+            height: 1750px;
+            width: 380px;
+            background-color: transparent;
+            box-shadow: none;
+            border: 0px;
         }
         .flexcontainer{
             display: flex;
             flex-direction: column;
             flex-wrap: nowrap;
-            justify-content: center;
+            justify-content: space-between;
             align-items: stretch;
             align-content: stretch;
         }
         .flex-blok{
             min-height: 200px;
-            height: 500px;
+            height: 350px;
+            max-height: 1000px;;
         }
         .flex-blok.flex-C1{
             height: 600px
         }
+        .flex-blok.flex-B1 {
+            height: 350px;
+        }
+
         #info{
             width: auto;
             margin-left: -19px;
@@ -412,11 +420,15 @@ background-color: #213555;
     }
     .grid.D.flexcontainer{
         height: 700px;
-        margin-top: -50px;
+        margin-top: -10px;
     }
     #suhlas{
         display: inline;
         margin: 0;
+    }
+    #info{
+        width: 350px;
+        margin-top: 12px;
     }
     .img1{
         width: 0;
@@ -432,8 +444,11 @@ background-color: #213555;
         margin-top: 90px;
         margin-left: 80px;
     }
-
+    textarea{
+        margin-top: 40px;
+        margin-left: -5px;
     }
-   textarea{
-    margin-left: -5px;
-   }
+    .label.L.R{
+        margin-left: -10px;
+    }
+}
