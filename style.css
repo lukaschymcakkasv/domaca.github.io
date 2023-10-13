@@ -24,7 +24,7 @@ background-color: #1a3a70;
     width: 760px;
     border-radius: 0px;
     background-color: transparent;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
   
 }
     .flexcontainer{
@@ -124,7 +124,7 @@ background-color: #1a3a70;
     }
    #photo{
         margin-top: 48px;
-        color: white;
+        color: black;
         
     }
     #narodnost{
@@ -160,7 +160,7 @@ background-color: #1a3a70;
     
     }
     .label.L.S.W{
-        color: white;
+        color: black;
     }
     .inputsmall{
         display: inline;
@@ -218,14 +218,14 @@ background-color: #1a3a70;
         font-weight: bolder;
         font-size: 18px;
         margin-left: 126px;
-        color: white;
+        color: black;
         
     }
     #ano{
         display: inline-block;
         font-weight: bolder;
         font-size: 18px;
-        color: white;
+        color: black;
     }
     select{
         box-shadow: 0px 0px 4px -1px black;
@@ -234,7 +234,7 @@ background-color: #1a3a70;
     }
     .label.L.Z{
         margin-bottom: -15px;
-        color: white;
+        color: black;
         
     }
     #nar{
@@ -267,6 +267,7 @@ background-color: #1a3a70;
         float: right;
         margin-top: 150px;
         margin-right: -10px;
+        
     }
     .svg{
         display: block;
@@ -274,12 +275,12 @@ background-color: #1a3a70;
         
     }
     address{
-        color: white;
+        color: black;
         font-size: 1rem;
 
     }
     .flex-blok.flex-E1.D{
-        background-color: #4F709C;
+        background-color: #4F709C ;
         border: 2px solid #4F709C;
     }
     #suhlas{
@@ -316,21 +317,21 @@ background-color: #1a3a70;
     }
 
     .flex-blok.flex-B1.B{
-        background-color: #4F709C;
-        border: 1.9px solid #4F709C;
-        border-bottom: 2px solid #4F709C;
+        background-color: white;
+        border: 1.9px solid white;
+        border-bottom: 2px solid white;
     }
     .flex-blok.flex-D1.B{
-        background-color: #4F709C;
-        border: 1.9px solid #4F709C;
-        border-bottom: 2px solid #4F709C;
+        background-color: white;
+        border: 1.9px solid white;
+        border-bottom: 2px solid white;
 
     }
     .label.R.W{
-        color: white;
+        color:;
     }
     .label.L.W{
-        color: white;
+        color: ;-
     }
     #skillrange3{
         margin-top: 31px;
@@ -364,7 +365,7 @@ background-color: #1a3a70;
             grid-template-columns: auto;
             justify-content: center;
             justify-items: center;
-            gap: 80px 0px;
+            gap: 40px 0px;
         }
         body {
             height: 100vh;
