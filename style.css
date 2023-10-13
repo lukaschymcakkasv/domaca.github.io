@@ -351,6 +351,10 @@ background-color: #1a3a70;
     .label.L.R{
         margin-left: -25px;
     }
+    #ps{
+        color: white;
+        font-size: 0.7rem;
+    }
    
     @media (min-width:500px) and (max-width: 1350px){
         .container{
@@ -423,14 +427,11 @@ background-color: #1a3a70;
         font-size: 1.5rem;
         margin-top: 10px;
     }
-    .svg{
-      width: 330px; 
-      margin-top: 200px;   
-    }
+    
     #kasv{
         font-size: 6rem;
         display: inline-block;
-        margin-top: 100px;
+        margin-top: 40px;
     }
     .grid.D.flexcontainer{
         height: 700px;
@@ -472,5 +473,12 @@ background-color: #1a3a70;
     .label.L.S.W{
         font-size: 1rem;
         margin-right: 5px;
+    }
+    .svg{
+        margin-left: 130px;
+        margin-top: 60px;
+        margin-bottom: 0px;
+    
+        
     }
 }
