@@ -8,24 +8,22 @@ body {
     font-family: 'Exo 2', sans-serif;
     font-family: 'Libre Baskerville', serif;
 font-family: 'Poppins', sans-serif;
-background-color: #213555;
+background-color: #1a3a70;
 }
 
 .container {
     display: grid;
     grid-template-columns: repeat(2, minmax(500px, 600px));
-    grid-column-gap: 190px;
+    grid-column-gap: 230px;
     grid-row-gap: -20px;
     }
 
 
 .grid{
-    height: 720px;
+    height: 750px;
     width: 760px;
-    border: 1px solid black;
     border-radius: 0px;
-    box-shadow: 1px 1px 10px 1px black;
-    background-color: white;
+    background-color: transparent;
     margin-bottom: 50px;
   
 }
@@ -33,14 +31,16 @@ background-color: #213555;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
         align-items: stretch;
         align-content: stretch;
     }
     .flex-blok{
         background-color: white;
-        height: 720px;
+        height: 920px;
         border-radius: 0px;
+        max-height: 1000px;
+        border: 1px solid black;
     }
     .flex-C1{
         border: 1px solid black;
@@ -52,11 +52,25 @@ background-color: #213555;
         max-width: 320px;
         min-width: 320px;
     }
+    .flex-B1.A{
+        border-right: 0px;
+        max-width: 330px;
+    }
+    .flex-B1.C{
+        border-left:0px ;
+    }
     .flex-D1{
         height: 300px;
         padding: 29px;
         max-width: 320px;
         min-width: 320px;
+    }
+    .flex-D1.CR{
+        border-right: 0px;
+        max-width: 322px;
+    }
+    .flex-D1.CL{
+        border-left: 0px;
     }
     .flex-E1{
         height: 300px;
@@ -110,7 +124,7 @@ background-color: #213555;
     }
    #photo{
         margin-top: 48px;
-        color: whitew;
+        color: white;
         
     }
     #narodnost{
@@ -254,13 +268,10 @@ background-color: #213555;
         margin-top: 150px;
         margin-right: -10px;
     }
-    .img2{
+    .svg{
         display: block;
-        height: 90px;
-        width: 350px;
-        float: right;
-        margin-right: 15px;
-        margin-top: 180px;
+        margin-left: 200px;
+        
     }
     address{
         color: white;
@@ -303,7 +314,7 @@ background-color: #213555;
         margin-left: -10px;
 
     }
-    
+
     .flex-blok.flex-B1.B{
         background-color: #4F709C;
         border: 1.9px solid #4F709C;
@@ -339,6 +350,7 @@ background-color: #213555;
     .label.L.R{
         margin-left: -25px;
     }
+   
     @media (min-width:500px) and (max-width: 950px){
         .container{
             grid-template-columns: auto;
@@ -386,6 +398,7 @@ background-color: #213555;
         }
         .flex-blok.flex-B1 {
             height: 350px;
+            
         }
 
         #info{
@@ -409,7 +422,7 @@ background-color: #213555;
         font-size: 1.5rem;
         margin-top: 10px;
     }
-    .img2{
+    .svg{
       width: 330px; 
       margin-top: 200px;   
     }
@@ -453,10 +466,10 @@ background-color: #213555;
     }
     .label.L.S{
         font-size: 1rem;
-        margin-right: 7px;
+        margin-right: 3px;
     }
     .label.L.S.W{
         font-size: 1rem;
-        margin-right: 7px;
+        margin-right: 4px;
     }
 }
