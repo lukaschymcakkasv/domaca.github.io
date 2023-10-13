@@ -2,7 +2,7 @@ body {
     height: 100vh;
     display: flex;
     justify-content: center;
-    margin-right: 150px;
+    margin-right: 20px;
     margin-top: 90px;
     margin-bottom: 20px;
     font-family: 'Exo 2', sans-serif;
@@ -13,7 +13,7 @@ background-color: #1a3a70;
 
 .container {
     display: grid;
-    grid-template-columns: repeat(2, minmax(500px, 600px));
+    grid-template-columns: auto
     grid-column-gap: 230px;
     grid-row-gap: -20px;
     }
@@ -217,7 +217,7 @@ background-color: #1a3a70;
         padding-left: 30px;
         font-weight: bolder;
         font-size: 18px;
-        margin-left: 126px;
+        margin-left: 115px;
         color: black;
         
     }
@@ -326,6 +326,11 @@ background-color: #1a3a70;
         border: 1.9px solid white;
         border-bottom: 2px solid white;
 
+    }
+    .svg{
+        margin-left: 330px;
+        margin-top: 120px;
+        margin-bottom: -160px;
     }
    
     #skillrange3{
