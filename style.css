@@ -20,7 +20,7 @@ background-color: #1a3a70;
 
 
 .grid{
-    height: 750px;
+    height: 735px;
     width: 760px;
     border-radius: 0px;
     background-color: transparent;
@@ -37,7 +37,7 @@ background-color: #1a3a70;
     }
     .flex-blok{
         background-color: white;
-        height: 920px;
+        height: 990px;
         border-radius: 0px;
         max-height: 1000px;
         border: 1px solid black;
@@ -330,7 +330,7 @@ background-color: #1a3a70;
     .svg{
         margin-left: 330px;
         margin-top: 120px;
-        margin-bottom: -140px;
+        margin-bottom: -180px;
     }
    
     #skillrange3{
@@ -431,7 +431,7 @@ background-color: #1a3a70;
     #kasv{
         font-size: 6rem;
         display: inline-block;
-        margin-top: 40px;
+        margin-top: -5px;
     }
     .grid.D.flexcontainer{
         height: 700px;
@@ -480,5 +480,11 @@ background-color: #1a3a70;
         margin-bottom: 0px;
     
         
+    }
+    .inputsmall{
+        width: 85px;
+        font-size: small;
+        margin-left: 0.5px;
+
     }
 }
