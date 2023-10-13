@@ -8,7 +8,9 @@ body {
     font-family: 'Exo 2', sans-serif;
     font-family: 'Libre Baskerville', serif;
 font-family: 'Poppins', sans-serif;
-background-color: #1a3a70;
+background: radial-gradient(circle at 10% 20%, rgb(59, 149, 237) 0%, rgb(7, 91, 173) 90%);
+background-repeat: no-repeat;
+background-attachment: fixed;
 }
 
 .container {
@@ -40,19 +42,23 @@ background-color: #1a3a70;
         height: 990px;
         border-radius: 0px;
         max-height: 1000px;
-        border: 1px solid black;
+        
     }
     .flex-C1{
         border: 1px solid black;
-        background-color: #4F709C;
+        background: linear-gradient(to right, #0acffe 0%, #495aff 100%);
+
+
     }
     .flex-B1{
         height: 300px;
         padding: 29px;
         max-width: 320px;
         min-width: 320px;
+        
     }
     .flex-B1.A{
+        
         border-right: 0px;
         max-width: 330px;
     }
@@ -66,7 +72,7 @@ background-color: #1a3a70;
         min-width: 320px;
     }
     .flex-D1.CR{
-        border-right: 0px;
+        border-right: 1px solid white;
         max-width: 322px;
     }
     .flex-D1.CL{
@@ -87,7 +93,8 @@ background-color: #1a3a70;
         font-size: 1.5rem;
         margin-top: 5px;
         margin-left: -10px;
-        font-weight: bolder;
+        font-weight: bold;
+        color: rgb(80, 78, 78);
     }
     .left.top{
         display: inline;
@@ -98,19 +105,20 @@ background-color: #1a3a70;
     }
     input{
         margin: 10px;
-        border: 1.5px solid gray;
+        border: 0.8px solid gray;
         border-radius: 5px;
         height: 45px;
         width: 100%;
         
         font-size: 1.2rem;
+        box-shadow: 0px 0px 10px -2px lightgray;
     }
     textarea{
-        border: 1px solid gray;
+        border: 0.7px solid gray;
         border-radius: 7px;
-        box-shadow: 0px 0px 5px -2px black;
         margin-top: 10px;
         width: 322px;
+        box-shadow: 0px 0px 10px -2px lightgray;
     
         font-weight: bold;
     }
@@ -228,8 +236,9 @@ background-color: #1a3a70;
         color: black;
     }
     select{
-        box-shadow: 0px 0px 4px -1px black;
-        font-size: 1.2rem;
+        
+        font-size: 1.3rem;
+
         
     }
     .label.L.Z{
@@ -280,8 +289,9 @@ background-color: #1a3a70;
 
     }
     .flex-blok.flex-E1.D{
-        background-color: #4F709C ;
-        border: 2px solid #4F709C;
+        background: linear-gradient(to right, #0acffe 0%, #495aff 100%);
+
+        border: px solid black;
     }
     #suhlas{
         display: inline;
@@ -379,7 +389,7 @@ background-color: #1a3a70;
         
         }
         .grid{
-            height: 1750px;
+            height: 1710px;
             width: 380px;
             background-color: transparent;
             box-shadow: none;
@@ -485,6 +495,10 @@ background-color: #1a3a70;
         width: 85px;
         font-size: small;
         margin-left: 0.5px;
+
+    }
+    .flex-E1.D{
+        margin-top: 20px;
 
     }
 }
