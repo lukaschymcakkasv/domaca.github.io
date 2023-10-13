@@ -24,9 +24,10 @@ background-attachment: fixed;
 .grid{
     height: 735px;
     width: 760px;
-    border-radius: 0px;
+    border-radius: 10px;
     background-color: transparent;
     margin-bottom: 70px;
+    
   
 }
     .flexcontainer{
@@ -42,6 +43,8 @@ background-attachment: fixed;
         height: 990px;
         border-radius: 0px;
         max-height: 1000px;
+
+        
         
     }
     .flex-C1{
@@ -59,7 +62,8 @@ background-attachment: fixed;
     }
     .flex-B1.A{
         
-        border-right: 0px;
+     border-top-left-radius: 10px;
+     border-bottom-left-radius: 10px ;
         max-width: 330px;
     }
     .flex-B1.C{
@@ -74,8 +78,12 @@ background-attachment: fixed;
     .flex-D1.CR{
         border-right: 1px solid white;
         max-width: 322px;
+        border-top-left-radius: 10px;
+     border-bottom-left-radius: 10px ;
     }
     .flex-D1.CL{
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
         border-left: 0px;
     }
     .flex-E1{
@@ -93,8 +101,8 @@ background-attachment: fixed;
         font-size: 1.5rem;
         margin-top: 5px;
         margin-left: -10px;
-        font-weight: bold;
-        color: rgb(80, 78, 78);
+        font-weight: normal;
+        color: rgb(79, 77, 77);
     }
     .left.top{
         display: inline;
@@ -124,10 +132,12 @@ background-attachment: fixed;
     }
     #bot{
         display: block;
-        font-size: 2rem;
+        font-size: 1.7rem;
         font-weight: bolder;
         margin-top: 50px;
         text-align: center;
+        color: rgb(79, 77, 77);
+
        
     }
    #photo{
@@ -226,24 +236,28 @@ background-attachment: fixed;
         font-weight: bolder;
         font-size: 18px;
         margin-left: 120px;
-        color: black;
+        color: rgb(79, 77, 77);
+
         
     }
     #ano{
         display: inline-block;
         font-weight: bolder;
         font-size: 18px;
-        color: black;
+        color: rgb(79, 77, 77);
+
     }
     select{
         
         font-size: 1.3rem;
+        color: rgb(79, 77, 77);
 
         
     }
     .label.L.Z{
         margin-bottom: -15px;
-        color: black;
+        color: rgb(79, 77, 77);
+
         
     }
     #nar{
@@ -325,17 +339,40 @@ background-attachment: fixed;
         margin-left: -10px;
 
     }
+    #leftbot{
+        border-top-left-radius: 10px;
+     border-bottom-left-radius: 10px ;
+    }
 
     .flex-blok.flex-B1.B{
         background-color: white;
         border: 1.9px solid white;
         border-bottom: 2px solid white;
+        
+    }
+    .flex-B1.B.R {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .flex-B1.C.R{
+        
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
     }
     .flex-blok.flex-D1.B{
         background-color: white;
         border: 1.9px solid white;
         border-bottom: 2px solid white;
+        
 
+    }
+    .flex-D1.B.R{
+        border-top-left-radius: 10px;
+     border-bottom-left-radius: 10px ;
+    }
+    .flex-D1.B.L{
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
     }
     .svg{
         margin-left: 330px;
@@ -374,6 +411,10 @@ background-attachment: fixed;
             margin:0
         }
     }
+    #birth{
+        color: rgb(79, 77, 77);
+
+    }
     @media (max-width: 500px){
         .container{
             grid-template-columns: auto;
@@ -389,7 +430,7 @@ background-attachment: fixed;
         
         }
         .grid{
-            height: 1710px;
+            height: 1680px;
             width: 380px;
             background-color: transparent;
             box-shadow: none;
@@ -407,6 +448,7 @@ background-attachment: fixed;
             min-height: 200px;
             height: 350px;
             max-height: 1000px;;
+            border-radius: 10px;
         }
         .flex-blok.flex-C1{
             height: 600px
@@ -430,7 +472,7 @@ background-attachment: fixed;
             margin-left: 55px;
         }
     .grid.A.flexcontainer{
-        height: 600px;
+        height: 500px;
 
     }
     .mainscreen{
@@ -498,7 +540,7 @@ background-attachment: fixed;
 
     }
     .flex-E1.D{
-        margin-top: 20px;
+        margin-top: 10px;
 
     }
     #nie{
