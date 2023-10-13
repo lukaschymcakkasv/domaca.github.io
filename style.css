@@ -50,6 +50,7 @@ background-attachment: fixed;
     .flex-C1{
         border: 1px solid black;
         background: linear-gradient(to right, #0acffe 0%, #495aff 100%);
+        border-radius: 10px;
 
 
     }
@@ -91,6 +92,7 @@ background-attachment: fixed;
         padding: 29px;
         max-width: 700px;
         min-width: 320px;
+        border-radius: 10px;
     }
     .grid.A.flexcontainer{
         flex-direction: column;
@@ -306,6 +308,7 @@ background-attachment: fixed;
         background: linear-gradient(to right, #0acffe 0%, #495aff 100%);
 
         border: px solid black;
+        border-radius: 10px;
     }
     #suhlas{
         display: inline;
@@ -402,6 +405,7 @@ background-attachment: fixed;
         color: white;
         font-size: 0.7rem;
     }
+    
    
     @media (min-width:500px) and (max-width: 1350px){
         .container{
